@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Component
-public class TokenValidationFilter implements Filter {
+public class TokenValidationFilter1 implements Filter {
     private static final String TOKEN_HEADER = "Authorization";
 
     @Override
